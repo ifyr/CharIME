@@ -31,6 +31,12 @@ public class CharIME extends InputMethodService implements
 	}
 
 	@Override
+	public boolean onEvaluateFullscreenMode() {
+		// 解除全屏模式
+		return false;
+	}
+
+	@Override
 	public View onCreateInputView() {
 		// 装载keyboard.xml文件
 		mInputView = (KeyboardView) getLayoutInflater().inflate(R.layout.input,

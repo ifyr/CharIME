@@ -2,7 +2,7 @@
     coreApp="true"
     package="pw.ifyr"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0.15m508" >
 
     <uses-sdk
         android:minSdkVersion="10"
